@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @gato.nombre %>
+</p>
+
+<p>
+  <b>Comentario:</b>
+  <%= @gato.comentario %>
+</p>
+
+
+<%= link_to 'Edit', edit_gato_path(@gato) %> |
+<%= link_to 'Back', gatos_path %>
